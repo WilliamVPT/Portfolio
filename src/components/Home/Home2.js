@@ -28,7 +28,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Mon domaine d'intérêt inclut la création de &nbsp;
+              Mon domaine d'intérêt inclut la création de&nbsp;
               <i>
                 <b className="purple">solutions logicielles innovantes </b> ainsi que des projets liés à{" "}
                 <b className="purple">
