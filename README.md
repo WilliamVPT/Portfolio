@@ -2,10 +2,6 @@
 - [About](#about)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## About
@@ -23,5 +19,5 @@ This portfolio showcases my projects and skills. It is built using a template by
 - React
 
 ## Contact
-Your Name - [williamverpoorte.pro@gmail.com](mailto:williamverpoorte.pro@gmail.com)
+WilliamVPT - [williamverpoorte.pro@gmail.com](mailto:williamverpoorte.pro@gmail.com)
 
