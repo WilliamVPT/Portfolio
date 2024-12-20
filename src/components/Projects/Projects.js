@@ -8,9 +8,7 @@ import android from "../../Assets/Projects/android.png";
 import cisco from "../../Assets/Projects/cisco.png";
 import bdd from "../../Assets/Projects/bdd.png";
 import hypercube from "../../Assets/Projects/hypercube.png";
-
-
-
+import indid from "../../Assets/Projects/indid.png";
 
 function Projects() {
   return (
@@ -18,10 +16,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Mes derniers <strong className="purple">Travaux </strong>
+          Mes derniers <strong className="purple">Travaux</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Voici certains de mes derniers projets. Vous pourrez retrouver d'autres travaux sur mon Github, la liste suivante est une petite sélection.
+          Voici certains de mes derniers projets. Vous pourrez retrouver d'autres travaux sur mon Github. La liste suivante est une petite sélection.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -29,7 +27,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Site web Portfolio"
-              description="Il s'agit du site sur lequel vous vous trouvez actuellement, réalisé grâce à next.js et react dans le but de me présenter et de vous montrer quelques unes de mes compétences"
+              description="Il s'agit du site sur lequel vous vous trouvez actuellement, réalisé grâce à Next.js et React dans le but de me présenter et de vous montrer quelques-unes de mes compétences."
               ghLink="https://github.com/WilliamVPT/Portfolio"
             />
           </Col>
@@ -39,7 +37,7 @@ function Projects() {
               imgPath={jeuurca}
               isBlog={false}
               title="Jeu de l'URCA"
-              description="Une application web réalisé avec Laravel dans le but de renseigner les équipes, les joueurs, les épreuves, matchs et résultats d'une compétition sportive."
+              description="Une application web réalisée avec Laravel dans le but de renseigner les équipes, les joueurs, les épreuves, les matchs et les résultats d'une compétition sportive."
               ghLink="https://github.com/WilliamVPT/JeuURCA"
             />
           </Col>
@@ -49,7 +47,7 @@ function Projects() {
               imgPath={android}
               isBlog={false}
               title="Application Android"
-              description="Une application mobile permettant de générer des mots grâce à différentes données relatives au système du téléphone ou différentes API."
+              description="Une application mobile permettant de générer des mots de passe grâce à différentes données relatives au système du téléphone ou à différentes API."
               ghLink="https://github.com/WilliamVPT/Android_Password"
             />
           </Col>
@@ -58,7 +56,7 @@ function Projects() {
               imgPath={cisco}
               isBlog={false}
               title="Simulation Cisco"
-              description="Simulation du cisco packet tracer pour la création de sous-réseaux incluant différents types de serveurs."
+              description="Simulation dans Cisco Packet Tracer pour la création de sous-réseaux incluant différents types de serveurs."
               ghLink="https://github.com/WilliamVPT/Simulation_Cisco"
             />
           </Col>
@@ -67,7 +65,7 @@ function Projects() {
               imgPath={bdd}
               isBlog={false}
               title="Agence de recrutement"
-              description="Conception d'une base de données d'une agence de recrutement avec des requêtes faites en SQL et PL/SQL."
+              description="Conception d'une base de données pour une agence de recrutement avec des requêtes SQL et PL/SQL."
               ghLink="https://github.com/WilliamVPT/BDD"
             />
           </Col>
@@ -78,6 +76,15 @@ function Projects() {
               title="Hypercube"
               description="Mise en place de la communication complète d'un token se déplaçant entre des processus sous la forme d'un hypercube, codé en C."
               ghLink="https://github.com/WilliamVPT/Hypercube"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={indid}
+              isBlog={false}
+              title="InDiD"
+              description="Participation au projet nationale InDiD, en exportant le programme de communication des véhicules sur un système embarqué de type MK5."
+              ghLink="https://github.com/WilliamVPT/Compte-rendu-Stage-Lab-I-"
             />
           </Col>
         </Row>
