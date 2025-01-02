@@ -9,6 +9,7 @@ import cisco from "../../Assets/Projects/cisco.png";
 import bdd from "../../Assets/Projects/bdd.png";
 import hypercube from "../../Assets/Projects/hypercube.png";
 import indid from "../../Assets/Projects/indid.png";
+import password from "../../Assets/Projects/password.png";
 
 function Projects() {
   return (
@@ -85,6 +86,15 @@ function Projects() {
               title="InDiD"
               description="Participation au projet nationale InDiD, en exportant le programme de communication des véhicules sur un système embarqué de type MK5."
               ghLink="https://github.com/WilliamVPT/Compte-rendu-Stage-Lab-I-"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={password}
+              isBlog={false}
+              title="Password Manager"
+              description="Création d'un gestionnaire de mots de passe en Python, permettant de créer des mots de passe sécurisés, de les stocker et de les consulter."
+              ghLink="https://github.com/WilliamVPT/Password-Manager"
             />
           </Col>
         </Row>
