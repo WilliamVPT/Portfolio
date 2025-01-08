@@ -35,6 +35,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={indid}
+              isBlog={false}
+              title="InDiD"
+              description="Participation au projet nationale InDiD, en exportant le programme de communication des véhicules sur un système embarqué de type MK5."
+              ghLink="https://github.com/WilliamVPT/Compte-rendu-Stage-Lab-I-"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={jeuurca}
               isBlog={false}
               title="Jeu de l'URCA"
@@ -52,6 +62,7 @@ function Projects() {
               ghLink="https://github.com/WilliamVPT/Android_Password"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cisco}
@@ -61,6 +72,7 @@ function Projects() {
               ghLink="https://github.com/WilliamVPT/Simulation_Cisco"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bdd}
@@ -70,6 +82,7 @@ function Projects() {
               ghLink="https://github.com/WilliamVPT/BDD"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hypercube}
@@ -79,15 +92,7 @@ function Projects() {
               ghLink="https://github.com/WilliamVPT/Hypercube"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={indid}
-              isBlog={false}
-              title="InDiD"
-              description="Participation au projet nationale InDiD, en exportant le programme de communication des véhicules sur un système embarqué de type MK5."
-              ghLink="https://github.com/WilliamVPT/Compte-rendu-Stage-Lab-I-"
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={password}
