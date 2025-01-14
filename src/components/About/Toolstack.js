@@ -6,6 +6,7 @@ import {
   SiWindows,
   SiWireshark,
   SiLaravel,
+  SiSymfony
 } from "react-icons/si";
 
 function Toolstack() {
@@ -25,6 +26,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSymfony />
       </Col>
     </Row>
   );
