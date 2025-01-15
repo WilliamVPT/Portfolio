@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Bonjour je m'appelle <span className="purple">William Verpoorte </span>
-            de <span className="purple"> Nevers, France.</span>
+            je viens de <span className="purple"> Nevers, France.</span>
             <br />
             Je suis actuellement étudiant en licence informatique à l'Université de Reims Champagne-Ardenne.
             <br />
