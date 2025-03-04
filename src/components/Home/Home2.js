@@ -30,9 +30,9 @@ function Home2() {
               <br />
               Mon domaine d'intérêt inclut la création de&nbsp;
               <i>
-                <b className="purple">solutions logicielles innovantes </b> ainsi que des projets liés à{" "}
+                <b className="purple">solutions logicielles innovantes</b> ainsi que des projets liés à{" "}
                 <b className="purple">
-                  la cybersécurité et aux infrastructures réseaux.
+                  la cybersécurité, aux infrastructures réseaux et à l'administration système.
                 </b>
               </i>
               <br />

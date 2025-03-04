@@ -7,9 +7,10 @@ function Type() {
       options={{
         strings: [
           "Étudiant en informatique",
+          "Administrateur Système",
+          "Étude de systèmes de sécurité",
           "Développeur WEB",
           "Développeur Système Embarquée",
-          "Gestion Réseau et Système",
         ],
         autoStart: true,
         loop: true,

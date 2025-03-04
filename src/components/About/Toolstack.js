@@ -6,7 +6,12 @@ import {
   SiWindows,
   SiWireshark,
   SiLaravel,
-  SiSymfony
+  SiSymfony,
+  SiProxmox,
+  SiDocker,
+  SiQemu,
+  SiVirtualbox,
+  SiVmware,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -29,6 +34,21 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSymfony />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiProxmox />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiQemu />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVirtualbox />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVmware />
       </Col>
     </Row>
   );
