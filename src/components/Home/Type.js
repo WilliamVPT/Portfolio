@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Étudiant en informatique",
           "Administrateur Système",
-          "Étude de systèmes de sécurité",
+          "Étude des systèmes de sécurité",
           "Développeur WEB",
           "Développeur Système Embarquée",
         ],
